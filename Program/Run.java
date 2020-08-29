@@ -1,6 +1,12 @@
 package Program;
 /*
 Main run file
+
+to run i used:
+javac -sourcepath .. Run.java
+java -classpath .. Main.java
+
+While being in the Program directory.
 */
 import java.io.*;
 import java.util.*;
@@ -26,10 +32,8 @@ public class Run {
 		
 		
 		//INSERT PATH FOR TSPLIB FOLDER AND RESULTS FOLDER
-		//String path = "";
-		//String resultPath = "";
-		String path = "C:\\Users\\Asus\\Desktop\\Diploma\\Poskus 2\\UploadProgram\\Program\\TSP\\TSPLIB\\";
-		String resultPath = "C:\\Users\\Asus\\Desktop\\Diploma\\Poskus 2\\UploadProgram\\Program\\Results\\";
+		String path = "";
+		String resultPath = "";
 		
 		TSP tsp[] = new TSP[7];
 		try{
